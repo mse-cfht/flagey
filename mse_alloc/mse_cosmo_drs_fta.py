@@ -34,8 +34,8 @@ def create_target_list(p_elg=1., p_lbg=1., p_qso=1., nobs=1):
     """
 
     # Read full KiDS catalog from Christophe (7,303,813 entries too)
-    #hdul = fits.open('TARGETS/kids_dr4_171ra190_23.0r24.5.01Apr2020.fits')
-    hdul = fits.open('TARGETS/Combined-CAT_KiDS_v4.0.fits')
+    hdul = fits.open('TARGETS/kids_dr4_171ra190_23.0r24.5.01Apr2020.fits')
+    #hdul = fits.open('TARGETS/Combined-CAT_KiDS_v4.0.fits')
     cat = hdul[1].data
 
     # Get coordinates

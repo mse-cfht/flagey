@@ -19,7 +19,7 @@ import numpy as np
 from mse_alloc import MseFibAlloc
 
 
-# 1a. Create targets list(s) for FTA with truncated KiDS catalog
+# 1a. Create targets list(s) for FTA with truncated DES catalog
 def create_target_list(p_stars=1., nobs=1):
     """
     This function creates target list file using DES for the Fiber-to-Target Allocator.
